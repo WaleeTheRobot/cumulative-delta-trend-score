@@ -2,9 +2,7 @@
 
 **Requires the lifetime NinjaTrader license for the volumetric data or the Order Flow + subscription.**
 
-**Important:** The Volumetric Period, Volumetric Bars Type and Ticks Per Level must match the one on the chart.
-
-Histogram with statiscal methods for scoring trend for the cumulative delta bars. Cumulative delta bars are for reference.
+Histogram with statical methods for scoring trend for the cumulative delta bars. Cumulative delta bars are for reference.
 
 The TrendClassifier evaluates market trends using statistical methods. It combines three trend detection techniques—Ordinary Least Squares (OLS) regression slope, Mann-Kendall tau, and Sen's slope—to produce a normalized trend score between -1 and 1.
 
